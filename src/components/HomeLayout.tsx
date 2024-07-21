@@ -57,7 +57,7 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
           className="relative text-2xl tracking-[0.13em] uppercase font-kopub-batang whitespace-nowrap z-[1] text-black cursor-pointer"
           onClick={onHomeClick}
         >
-          gRIYA bATIK SENOK
+          Aricha Batik
         </div>
         <nav className="flex flex-row items-center gap-8">
           <Dropdown overlay={menu} trigger={['hover']}>

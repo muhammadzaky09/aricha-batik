@@ -13,10 +13,10 @@ const MainPage: FunctionComponent = () => {
         </div>
         <section className="w-full flex flex-col items-center justify-start pt-[30px] px-4 pb-[60px] box-border gap-[40px] max-w-[1400px] text-left text-4xl sm:text-3xl text-gray font-kopub-batang">
           <h1 className="m-0 w-full text-[41px] font-light font-inherit text-center mb-8 sm:text-3xl">
-            Galeri Batik Senok
+            Galeri Aricha Batik
           </h1>
           <div className="w-full max-w-[1200px] grid grid-cols-4 gap-2 sm:gap-4 md:gap-6">
-            {[...Array(10)].map((_, index) => (
+            {[...Array(8)].map((_, index) => (
               <div key={index} className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg shadow-md">
                 <img
                   className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
